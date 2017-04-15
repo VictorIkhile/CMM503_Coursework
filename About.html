@@ -8,9 +8,6 @@
     <meta name="description" content="TEAMMATES is an Online Peer Feedback System for student team projects. It is completely free to use. Get your students to evaluate their performance in team projects, and view reports and summaries of their feedback and evaluations.">
     <link type="text/css" href="https://unpkg.com/bootstrap@3.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link type="text/css" href="https://unpkg.com/bootstrap@3.1.1/dist/css/bootstrap-theme.min.css" rel="stylesheet">
-    <link type="text/css" href="stylesheets/teammatesCommon.css" rel="stylesheet">
-    <link rel="shortcut icon" href="/favicon.png">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <title>TEAMMATES - Online Peer Feedback/Evaluation System for Student Team Projects</title>
 </head>
 <body>
@@ -27,11 +24,10 @@
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class=""><a href="index.jsp">Home</a></li>
-                    <li class=""><a href="features.jsp">Features</a></li>
-                    <li class="active"><a href="about.jsp">About Us</a></li>
-                    <li class=""><a href="contact.jsp">Contact</a></li>
-                    <li class=""><a href="terms.jsp">Terms of Use</a></li>
+                    <li class=""><a href="index.html">Home</a></li>
+                    <li class=""><a href="features.html">Features</a></li>
+                    <li class="active"><a href="about.html">About Us</a></li>
+                    <li class=""><a href="contact.html">Contact</a></li>
                 </ul>
                 <form class="navbar-form navbar-right" action="/login" name="login">
                     <input type="submit" name="student" class="btn btn-login " id="btnStudentLogin" value="Student Login" label="studentLogin">
@@ -44,34 +40,30 @@
 
         <div class="container">
             <section class="row">
-                <h1 class="color_orange">About Us</h1>
-                <p class="h3">Acknowledgements:</p>
-                <h2>
-                    <b>TEAMMATES</b> team wishes to thank the following invaluable contributions.
-                </h2>
+                <h1 class="color_orange">PEER ASSESEMENT IN GROUP PROJECTS</h1>
+
                 <ul>
+
+
                     <li>
-                        <a href="http://www.comp.nus.edu.sg/" target="_blank" rel="noopener noreferrer">School of Computing, National University of Singapore (NUS)</a>, for providing us with the infrastructure support to run the project.
+                        <p>In some modules, you are required to take part in a group  project. In these instances, it is necessary for all group members to work  together to complete a project. It is expected that all members will work with  the same level of commitment and enthusiasm. However, this does not always  occur and as such, peer assessment of individuals within group tasks is an  important aspect. There is an opportunity for a web application to be created  that could aid in this. In this system, there are the following types of users.
+                        </p>
                     </li>
-                    <li>
-                        <a href="http://www.cdtl.nus.edu.sg/" target="_blank" rel="noopener noreferrer">Centre for Development of Teaching and Learning (CDTL)</a> of NUS, for supporting us with several Teaching Enhancement Grants over the years.
-                    </li>
-                    <li>
-                        <b>Learning Innovation Fund-Technology (LIF-T)</b> initiative of NUS, for funding us for the 2015-2018 period.
-                    </li>
-                    <li>
-                        <b>Google Summer of Code</b> Program, for including TEAMMATES as a mentor organization in GSoC2014, GSoC2015 and GSoC2016 editions.
-                    </li>
-                    <li>
-                        <b>Facebook Open Academy</b> Program, for including TEAMMATES as a mentor organization in FBOA 2016.
-                    </li>
-                    <li>
-                        <b>YourKit LLC</b>, for providing us with free licenses for the <a href="https://www.yourkit.com/java/profiler/" target="_blank" rel="noopener noreferrer">YourKit Java Profiler</a>
-                        <img src="https://www.yourkit.com/images/yklogo.png" width='70'>.
-                    </li>
+                    <li>Administrators</li>
+                    <li>Students</li>
+                </ul>
+                <p>Accompanying this, the following basic functionality should  be implemented.</p>
+                <ul>
+                    <li>Administrators should login to the system to  gain access</li>
+                    <li>Administrators should be able to set up a coursework  item and then should be able to split students into groups for the coursework.</li>
+                    <li>Students should enter the system through a  personalized link and can then give feedback on how they worked in a group.</li>
+                    <li>Students should be able to upload files to supplement  their feedback.</li>
+                    <li>Students should not see the feedback from other  students.</li>
+                    <li>Administrators should be able to see a detailed  report for each group showing how students worked together.</li>
                 </ul>
             </section>
 
+        </div>
+    </div>
 </body>
 </html>
-tml>
